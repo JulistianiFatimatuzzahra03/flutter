@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'container_widget.dart';
+// import 'rowcolumn.dart';
+// import 'column_widget.dart';
+import 'latihan_row.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,13 +19,14 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text("Fzahra"),
-          backgroundColor: Colors.amber,
+          backgroundColor: Color.fromARGB(255, 7, 255, 81),
           centerTitle: true,
         ),
         body: Container(
-          color: Colors.amber,
-          child: ContainerWidget()
+          color: Color.fromARGB(255, 255, 255, 255),
+          child: LatihanRow(),
         ),
+        
       ),
     );
   }
