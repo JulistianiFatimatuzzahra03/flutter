@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 // import 'rowcolumn.dart';
 // import 'column_widget.dart';
-import 'latihan_row.dart';
+// import 'listview1_widget.dart';
+// import 'listview2_widget.dart';
+// import 'listview3_widget.dart';
+import 'listview4_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -24,7 +27,7 @@ class MyApp extends StatelessWidget {
         ),
         body: Container(
           color: Color.fromARGB(255, 255, 255, 255),
-          child: LatihanRow(),
+          child: ListView4(),
         ),
         
       ),

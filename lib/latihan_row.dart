@@ -14,7 +14,7 @@ class LatihanRow extends StatelessWidget {
           Container(
             height: 150,
             width: 500,
-            color: Color.fromARGB(255, 56, 197, 131),
+            color: Color.fromARGB(255, 12, 17, 15),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
