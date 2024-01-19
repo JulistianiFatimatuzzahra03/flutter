@@ -4,7 +4,8 @@ import 'package:flutter/material.dart';
 // import 'listview1_widget.dart';
 // import 'listview2_widget.dart';
 // import 'listview3_widget.dart';
-import 'listview4_widget.dart';
+// import 'listview4_widget.dart';
+import 'coba_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,12 +23,12 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text("Fzahra"),
-          backgroundColor: Color.fromARGB(255, 7, 255, 81),
+          backgroundColor: Color.fromARGB(255, 108, 119, 111),
           centerTitle: true,
         ),
         body: Container(
           color: Color.fromARGB(255, 255, 255, 255),
-          child: ListView4(),
+          child: LatihanListView(),
         ),
         
       ),
