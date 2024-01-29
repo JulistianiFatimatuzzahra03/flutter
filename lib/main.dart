@@ -1,3 +1,5 @@
+import 'package:belajar_flutter/coba_widget.dart';
+import 'package:belajar_flutter/latihan_row.dart';
 import 'package:flutter/material.dart';
 // import 'rowcolumn.dart';
 // import 'column_widget.dart';
@@ -5,7 +7,12 @@ import 'package:flutter/material.dart';
 // import 'listview2_widget.dart';
 // import 'listview3_widget.dart';
 // import 'listview4_widget.dart';
-import 'coba_widget.dart';
+// import 'coba_widget.dart';
+// import 'gridview.dart';
+// import 'grid_count.dart';
+// import 'grid_builder.dart';
+// import 'latihan_row.dart';
+import 'latihan1_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,12 +30,12 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text("Fzahra"),
-          backgroundColor: Color.fromARGB(255, 108, 119, 111),
+          backgroundColor: Color.fromARGB(255, 223, 117, 117),
           centerTitle: true,
         ),
         body: Container(
           color: Color.fromARGB(255, 255, 255, 255),
-          child: LatihanListView(),
+          child: Latihan1(),
         ),
         
       ),
