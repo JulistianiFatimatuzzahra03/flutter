@@ -66,7 +66,7 @@ class ContainerWidget extends StatelessWidget {
       borderRadius: BorderRadius.circular(10),
       border: Border.all(color: Colors.black, width: 3)
       ),
-      child: BelajarHelloWorld(),
+      // child: BelajarHelloWorld(),
       )
       ),
       ),
